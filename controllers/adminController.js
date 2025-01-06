@@ -2,7 +2,7 @@
 
 import validator from "validator"
 import {v2 as cloudinary} from'cloudinary'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import doctorModel from "../models/doctorModel.js"
 import jwt from 'jsonwebtoken'
 import appointmentModel from "../models/appointmentModel.js"
